@@ -1,12 +1,68 @@
-<ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel-0">
-    <ngb-panel>
-      <ng-template ngbPanelTitle>
-        <span>
-           <b>PenguinHealth</b>
-        </span>
-      </ng-template>
-      <ng-template ngbPanelContent>
-        This is a test
-      </ng-template>
-    </ngb-panel>
-  </ngb-accordion>  
+  <!-- todo: remove nav bar and make it global thru-out whole app -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Sign up</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">More Information</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+  <!-- todo: remove nav bar and make it global thru-out whole app -->
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <!------ Include the above in your HEAD tag ---------->
+  
+  <div class="container-fluid bg-info">
+      <div class="modal-dialog">
+        <div class="modal-content">
+           <div class="modal-header">
+              <h3><span class="label label-warning" id="qid">2</span> THREE is CORRECT</h3>
+          </div>
+          <div class="modal-body">
+              <div class="col-xs-3 col-xs-offset-5">
+                 <div id="loadbar" style="display: none;">
+                    <div class="blockG" id="rotateG_01"></div>
+                    <div class="blockG" id="rotateG_02"></div>
+                    <div class="blockG" id="rotateG_03"></div>
+                    <div class="blockG" id="rotateG_04"></div>
+                    <div class="blockG" id="rotateG_05"></div>
+                    <div class="blockG" id="rotateG_06"></div>
+                    <div class="blockG" id="rotateG_07"></div>
+                    <div class="blockG" id="rotateG_08"></div>
+                </div>
+            </div>
+  
+            <div class="quiz" id="quiz" data-toggle="buttons">
+             <label class="element-animation1 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="1">1 One</label>
+             <label class="element-animation2 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="2">2 Two</label>
+             <label class="element-animation3 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="3">3 Three</label>
+             <label class="element-animation4 btn btn-lg btn-primary btn-block"><span class="btn-label"><i class="glyphicon glyphicon-chevron-right"></i></span> <input type="radio" name="q_answer" value="4">4 Four</label>
+         </div>
+     </div>
+     <div class="modal-footer text-muted">
+      <span id="answer"></span>
+  </div>
+  </div>
+  </div>
+  </div>

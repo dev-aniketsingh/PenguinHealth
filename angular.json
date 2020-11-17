@@ -28,6 +28,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,10 +124,6 @@
           }
         }
       }
-    }
-  },
-  "defaultProject": "penguinHealthApp",
-  "cli": {
-    "analytics": "6c58c127-88d4-4851-bf13-bd336e697a20"
-  }
+    }},
+  "defaultProject": "penguinHealthApp"
 }

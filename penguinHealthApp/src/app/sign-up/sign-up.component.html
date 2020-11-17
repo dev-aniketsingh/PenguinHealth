@@ -1,0 +1,115 @@
+  <!-- todo: remove nav bar and make it global thru-out whole app -->
+<nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand" href="#">Penguin Health</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Sign up</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">More Information</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+    <!-- todo: remove nav bar and make it global thru-out whole app -->
+
+
+    <div class="card">
+        <div class="card-body">
+          <h1 class="text-center">
+Sign-up
+        </h1>
+          <p class="text-center">Welcome message goes here.....</p>
+          <form>
+            <div class="row">
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="input-group mt-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text bg-primary"><i class="fas fa-envelope fa-fw text-light"></i></span>
+                    </div>
+                    <input type="email" class="form-control" placeholder="Email" readonly aria-label="Email" name="email">
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="input-group mt-2">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text bg-primary"><i class="fas fa-user fa-fw text-light"></i></span>
+                    </div>
+                    <input type="text" required class="form-control" placeholder="First Name" aria-label="First Name" name="firstName">
+                    <div class="invalid-feedback">
+                      First name is required
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="input-group mt-2">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text bg-primary"><i class="fas fa-user fa-fw text-light"></i></span>
+                    </div>
+                    <input type="text" required class="form-control" placeholder="Last Name" aria-label="Last Name" name="lastName">
+                    <div class="invalid-feedback">
+                      Last name is required
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="input-group mt-2">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text bg-primary"><i class="fas fa-lock fa-fw text-light"></i></span>
+                    </div>
+                    <input type="password" required minlength="8" class="form-control" placeholder="Password" aria-label="Password" name="password" >
+                    <div class="invalid-feedback">
+                      Password is required and must be at least 8 characters long
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <div class="input-group mt-2">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text bg-primary"><i class="fas fa-lock fa-fw text-light"></i></span>
+                    </div>
+                    <input type="password" required minlength="8" class="form-control" placeholder="Confirm Password" aria-label="Confirm Password" name="confirmPassword">
+                    <div class="invalid-feedback">
+                      <span>Confirm password is required and must match the password</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+      
+            <div class="row mt-2">
+              <div class="col-6">
+                <button class="btn btn-outline-primary">Cancel</button>
+              </div>
+              <div class="col-6 text-right">
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      
