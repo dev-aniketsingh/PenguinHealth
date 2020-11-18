@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "penguinHealthApp"
+    }
+  },
+  "defaultProject": "penguinHealthApp",
+  "cli": {
+    "analytics": "5d338121-6c4c-4920-b2ce-d229d6a2c07e"
+  }
 }
