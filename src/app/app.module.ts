@@ -10,6 +10,7 @@ import { AboutComponent } from './about/about.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { MoreInfoComponent } from './more-info/more-info.component';
 import { CovidQuestionComponent } from './covid-question/covid-question.component';
+import { GoogleChartsModule } from 'angular-google-charts';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { CovidQuestionComponent } from './covid-question/covid-question.componen
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    GoogleChartsModule,
     RouterModule.forRoot([
 
     {  
