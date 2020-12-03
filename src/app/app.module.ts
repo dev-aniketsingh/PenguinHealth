@@ -11,6 +11,7 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { MoreInfoComponent } from './more-info/more-info.component';
 import { CovidQuestionComponent } from './covid-question/covid-question.component';
 import { GoogleChartsModule } from 'angular-google-charts';
+import { ResultsComponent } from './results/results.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { GoogleChartsModule } from 'angular-google-charts';
     AboutComponent,
     SignUpComponent,
     MoreInfoComponent,
-    CovidQuestionComponent
+    CovidQuestionComponent,
+    ResultsComponent
   ],
   imports: [
     BrowserModule,
@@ -53,6 +55,10 @@ import { GoogleChartsModule } from 'angular-google-charts';
 {
   path: 'covid-question',
   component: CovidQuestionComponent
+},
+{
+  path:'results',
+  component: ResultsComponent
 },
     ])
   ],
