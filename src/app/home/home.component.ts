@@ -9,7 +9,7 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 export class HomeComponent implements OnInit {
 
   name : string;
-  ysuID : number;
+  YID : string;
   lastAssessment : number;
 
   constructor(private router: Router) { }
@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
     this.name = "David Bouchedid";
     this.lastAssessment = 6;
-    this.ysuID = 78818300;
+    this.YID = "Y0078818300"
   }
 
 }
