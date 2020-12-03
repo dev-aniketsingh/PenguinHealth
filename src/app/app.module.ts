@@ -9,6 +9,7 @@ import { RouterModule } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { MoreInfoComponent } from './more-info/more-info.component';
+import { CovidQuestionComponent } from './covid-question/covid-question.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MoreInfoComponent } from './more-info/more-info.component';
     HomeComponent,
     AboutComponent,
     SignUpComponent,
-    MoreInfoComponent
+    MoreInfoComponent,
+    CovidQuestionComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +48,10 @@ import { MoreInfoComponent } from './more-info/more-info.component';
   path: 'more-info', 
  component: MoreInfoComponent
 },
-
+{
+  path: 'covid-question',
+  component: CovidQuestionComponent
+},
     ])
   ],
   providers: [],
