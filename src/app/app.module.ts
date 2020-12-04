@@ -12,6 +12,7 @@ import { MoreInfoComponent } from './more-info/more-info.component';
 import { CovidQuestionComponent } from './covid-question/covid-question.component';
 import { GoogleChartsModule } from 'angular-google-charts';
 import { ResultsComponent } from './results/results.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { ResultsComponent } from './results/results.component';
     AppRoutingModule,
     NgbModule,
     GoogleChartsModule,
+    FormsModule,
     RouterModule.forRoot([
 
     {  

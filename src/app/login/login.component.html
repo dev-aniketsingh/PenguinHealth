@@ -36,10 +36,11 @@
             <span class="input-group-text"> <i class="fa fa-user"></i> </span>
           </div>
           <input
-            name=""
+            name="email"
             class="form-control"
             placeholder="Email address"
             type="email"
+            [(ngModel)]="email"
           />
         </div>
         <div class="form-group input-group">
@@ -49,14 +50,16 @@
             </span>
           </div>
           <input
-            name=""
+            name="password"
             class="form-control"
-            placeholder="Email address"
-            type="email"
+            placeholder="password"
+            type="password"
+            [(ngModel)]="password"
+
           />
         </div>
         <div class="form-group">
-          <a href="/home" class="btn btn-primary d-flex justify-content-center">Login</a>
+          <button type="button" class="btn btn-block btn-primary" (click)="loginclicked()">Sign in</button>      
         </div>
       </form>
     </article>

@@ -8,6 +8,9 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 })
 export class LoginComponent implements OnInit {
 
+  email: String;
+  password: String;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -16,6 +19,14 @@ export class LoginComponent implements OnInit {
   }
   
   loginclicked(): void {
-      
+
+    if(this.email === "dabouchedid@student.ysu.edu") {
+    }
+    else if(this.email ==="") {
+    }
+
+    else {
+
+    }
   }
 }
