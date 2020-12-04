@@ -13,6 +13,7 @@ import { CovidQuestionComponent } from './covid-question/covid-question.componen
 import { GoogleChartsModule } from 'angular-google-charts';
 import { ResultsComponent } from './results/results.component';
 import { FormsModule } from '@angular/forms';
+import { NgbToastModule} from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { FormsModule } from '@angular/forms';
     NgbModule,
     GoogleChartsModule,
     FormsModule,
+    NgbToastModule,
     RouterModule.forRoot([
 
     {  
